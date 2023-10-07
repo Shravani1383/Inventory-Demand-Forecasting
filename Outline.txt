@@ -1,0 +1,19 @@
+User Input expected
+Item Id
+dept id
+cat_id
+store_id
+date
+for how many days you want forecast your required stock
+
+Model training on
+ 'dept_id', 'cat_id', 'store_id',
+   'state_id', 'd', 'sold', 'month', 'year',
+       'event_name_1', 'event_type_1', 'event_name_2', 'event_type_2',
+       'snap_CA', 'snap_TX', 'snap_WI', 'sell_price', 'sold_lag_1',
+       'sold_lag_2', 'sold_lag_4', 'sold_lag_8', 'sold_lag_16', 'sold_lag_32',
+       'item_sold_avg', 'state_sold_avg', 'store_sold_avg', 'cat_sold_avg',
+       'dept_sold_avg', 'cat_dept_sold_avg', 'store_item_sold_avg',
+       'cat_item_sold_avg', 'dept_item_sold_avg', 'dept_store_sold_avg',
+       'store_cat_dept_sold_avg', 'store_cat_item_sold_avg',
+       'rolling_sold_mean', 'expanding_sold_mean'
